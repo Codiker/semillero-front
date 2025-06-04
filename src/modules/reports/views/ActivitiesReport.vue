@@ -92,7 +92,7 @@
               </span>
             </th>
             <th class="py-3 px-4 text-left font-semibold cursor-pointer select-none" @click="ordenarPor('responsable_correo')">
-              Correo responsable
+              Correo 
               <span v-if="ordenCampo === 'responsable_correo'">
                 <svg
                   :class="['inline w-3 h-3 ml-1 transition-transform duration-200', ordenAscendente ? 'text-blue-500 rotate-0' : 'text-blue-500 rotate-180']"
